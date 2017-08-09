@@ -1,0 +1,36 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Jeff Hajewski"
+theme = "black-and-light"
+
+[Author]
+  name = "Jeff Hajewski"
+
+[Taxonomies]
+  tag = "tags"
+
+[params]
+  github = "https://github.com/j-haj"
+  email = "jeff.hajewski@gmail.com"
+  dateFormat = "Monday, Jan 2, 2006"
+  Summary = true
+  Content = true
+  comments = true
+
+[Permalinks]
+  post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume/"
+  weight = 3

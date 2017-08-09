@@ -1,0 +1,12 @@
+[submodule "hugo-black-and-light-theme"]
+	path = hugo-black-and-light-theme
+	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme
+[submodule "themes/black-and-light"]
+	path = themes/black-and-light
+	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme
+[submodule "themes/ghostwriter"]
+	path = themes/ghostwriter
+	url = https://github.com/jbub/ghostwriter
+[submodule "themes/slim"]
+	path = themes/slim
+	url = https://github.com/zhe/hugo-theme-slim.git
